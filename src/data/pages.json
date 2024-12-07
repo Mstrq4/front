@@ -1,0 +1,142 @@
+[
+    {
+      "name": "Dashboard",
+      "icon": "layout-dashboard",
+      "path": "/dashboard"
+    },
+    {
+      "name": "Users",
+      "icon": "users",
+      "path": "/users"
+    },
+    {
+      "name": "Addresses",
+      "icon": "map-pin",
+      "path": "/addresses"
+    },
+    {
+      "name": "Invoices",
+      "icon": "file-text",
+      "path": "/invoices"
+    },
+    {
+      "name": "Taxes",
+      "icon": "percent",
+      "path": "/taxes"
+    },
+    {
+      "name": "Refunds",
+      "icon": "rotate-ccw",
+      "path": "/refunds"
+    },
+    {
+      "name": "Chats",
+      "icon": "message-square",
+      "path": "/chats",
+      "subPages": [
+        {
+          "name": "Chat Details",
+          "icon": "messages-square",
+          "path": "/chats/[id]"
+        }
+      ]
+    },
+    {
+      "name": "Courses",
+      "icon": "graduation-cap",
+      "path": "/courses",
+      "subPages": [
+        {
+          "name": "Lessons",
+          "icon": "book-open",
+          "path": "/courses/[id]/lessons"
+        },
+        {
+          "name": "Materials",
+          "icon": "file-text",
+          "path": "/courses/[id]/materials"
+        },
+        {
+          "name": "Quizzes",
+          "icon": "list-checks",
+          "path": "/courses/[id]/quizzes"
+        }
+      ]
+    },
+    {
+      "name": "Payments",
+      "icon": "credit-card",
+      "path": "/payments"
+    },
+    {
+      "name": "Assets",
+      "icon": "folder",
+      "path": "/assets"
+    },
+    {
+      "name": "Subscriptions",
+      "icon": "repeat",
+      "path": "/subscriptions"
+    },
+    {
+      "name": "Events",
+      "icon": "calendar",
+      "path": "/events"
+    },
+    {
+      "name": "Logs",
+      "icon": "clipboard-list",
+      "path": "/logs"
+    },
+    {
+      "name": "Settings",
+      "icon": "settings",
+      "path": "/settings",
+      "subPages": [
+        {
+          "name": "Roles",
+          "icon": "shield",
+          "path": "/settings/roles"
+        },
+        {
+          "name": "Metadata",
+          "icon": "database",
+          "path": "/settings/metadata"
+        }
+      ]
+    },
+    {
+      "name": "Languages",
+      "icon": "languages",
+      "path": "/languages",
+      "subPages": [
+        {
+          "name": "Add Language",
+          "icon": "plus-circle",
+          "path": "/languages/add"
+        },
+        {
+          "name": "Edit Language",
+          "icon": "pencil",
+          "path": "/languages/edit/[id]"
+        }
+      ]
+    },
+    {
+      "name": "Translations",
+      "icon": "languages",
+      "path": "/translations",
+      "subPages": [
+        {
+          "name": "Add Translation",
+          "icon": "plus-circle",
+          "path": "/translations/add"
+        },
+        {
+          "name": "Edit Translation",
+          "icon": "pencil",
+          "path": "/translations/edit/[id]"
+        }
+      ]
+    }
+]
